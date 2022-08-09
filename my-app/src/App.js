@@ -20,7 +20,7 @@ export default function App() {
   // Add default value on page load
   useEffect(() => {
     setSportList(defaultSports);
-  }, []);
+  },[]);
 
   // Function to get filtered list
   function getFilteredList() {
